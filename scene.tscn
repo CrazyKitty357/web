@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://csfb0sjy0cv1y"]
+
+[ext_resource type="Texture2D" uid="uid://buvmhmw0aihiu" path="res://assets/images/miku.png" id="1_f1ajs"]
+
+[node name="Scene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 19.0
+offset_bottom = 69.0
+grow_horizontal = 2
+bbcode_enabled = true
+text = "[center][font_size=30][wave]this is a long string that is supposed to be the title."
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -226.0
+offset_top = -220.0
+offset_right = 227.0
+offset_bottom = 306.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_f1ajs")
+expand_mode = 3
